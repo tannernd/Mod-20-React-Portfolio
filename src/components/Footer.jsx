@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 
 
 export default function Footer() {
@@ -14,6 +14,9 @@ export default function Footer() {
 
             <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/tannernd" role="button"
               > <FontAwesomeIcon icon={faGithub} /></a>
+
+            <a className="btn btn-outline-light btn-floating m-1" href="https://stackoverflow.com/users/2117248/tannern?tab=profile" role="button"
+              > <FontAwesomeIcon icon={faStackOverflow} /></a>
           </section>
         </div>
 

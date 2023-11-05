@@ -2,3 +2,7 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.navbar-brand.active, .nav-link.active{
+  color:white !important;
+}

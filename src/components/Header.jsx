@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import Navigation from './Navigation';
 
 
 export default function Header() {
+    const [currentPage, setCurrentPage] = useState('home');
+    const handlePageChange = (page) => setCurrentPage(page);
     return (
 
         <nav className="navbar navbar-expand-lg bg-secondary">
             <div className="container-fluid">
-            <Link key={1} className="navbar-brand" to="/">
+            <Link key={1} className={currentPage === 'home' ? 'navbar-brand active' : 'navbar-brand'}  onClick={() => handlePageChange('home')} to="/">
                     Nate Tanner
                     </Link>
                 <button className="navbar-toggler" type="button"
@@ -19,18 +22,18 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <Navigation
                     links={[                    
-                        <li className="nav-link" key={2}><Link key={2} className="nav-link" to="/about">
+                        <Link key={2} className={currentPage === 'about' ? 'nav-link active' : 'nav-link'} to="/about" onClick={() => handlePageChange('about')}>
                         About Me
-                        </Link></li>,
-                        <li className="nav-link" key={3}><Link key={3} className="nav-link" to="/portfolio">
+                        </Link>,
+                        <Link key={3} className={currentPage === 'portfolio' ? 'nav-link active' : 'nav-link'} to="/portfolio" onClick={() => handlePageChange('portfolio')}>
                         Portfolio
-                        </Link></li>,
-                        <li className="nav-link" key={4}><Link key={4} className="nav-link" to="/contact">
+                        </Link>,
+                        <Link key={4} className={currentPage === 'contact' ? 'nav-link active' : 'nav-link'} to="/contact" onClick={() => handlePageChange('contact')}>
                         Contact Me
-                        </Link></li>,
-                        <li className="nav-link" key={5}><Link key={5} className="nav-link" to="/resume">
+                        </Link>,
+                        <Link key={5} className={currentPage === 'resume' ? 'nav-link active' : 'nav-link'} to="/resume" onClick={() => handlePageChange('resume')}>
                         Resume
-                        </Link></li>,
+                        </Link>,
                     ]}
                 />
                 </div>
