@@ -29,16 +29,41 @@ function ContactPage() {
         }
     };
 
-    const handleFormSubmit = (e) => {
-        //Prevent default form submit behavior
-        e.preventDefault();
-        //Validate the email, Contact Name, and Message is filled out
+    const handleBlurEmail = (e) => {
         if (!validateEmail(email)) {
             setErrorMessage('Your email is invalid.');
             return;
         }
+        setErrorMessage('');
+    }
+
+    const handleBlurContact = (e) => {
         if (!contactName) {
             setErrorMessage('Please enter your name.');
+            return;
+        }
+        setErrorMessage('');
+    }
+
+    const handleBlurMessage = (e) => {
+        
+        if (!message) {
+            setErrorMessage('Message is required.');
+            return;
+        }
+        setErrorMessage('');
+    }
+
+    const handleFormSubmit = (e) => {
+        //Prevent default form submit behavior
+        e.preventDefault();
+        //Validate the email, Contact Name, and Message is filled out        
+        if (!contactName) {
+            setErrorMessage('Please enter your name.');
+            return;
+        }
+        if (!validateEmail(email)) {
+            setErrorMessage('Your email is invalid.');
             return;
         }
         if (!message) {
@@ -52,6 +77,7 @@ function ContactPage() {
         setContactName('');
         setEmail('');
         setMessage('');
+        setErrorMessage('');
     };
 
     return (
@@ -67,6 +93,7 @@ function ContactPage() {
             value={contactName}
             name="contactName"
             onChange={handleInputChange}
+            onBlur={handleBlurContact}
             type="text"
             placeholder="Your Name"
             />
@@ -80,7 +107,8 @@ function ContactPage() {
             value={email}
             name="email"
             onChange={handleInputChange}
-            type="email"
+            onBlur={handleBlurEmail}
+            type="text"
             placeholder="Email"
             />
         </div>
@@ -93,6 +121,7 @@ function ContactPage() {
             value={message}
             name="message"
             onChange={handleInputChange}
+            onBlur={handleBlurMessage}
             placeholder="Message Text"
             rows="5"
             ></textarea>
