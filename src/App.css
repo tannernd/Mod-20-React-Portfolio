@@ -2,6 +2,13 @@
   margin: 0 auto;
   padding: 2rem;
 }
+nav, .btn {
+  background-color: rgb(189, 189, 189);
+}
+
+footer {
+  background-color: black;
+}
 
 .navbar-brand.active, .nav-link.active{
   color:white !important;

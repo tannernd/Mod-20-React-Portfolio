@@ -1,4 +1,4 @@
-import NateResume from '../../src/assets/files/Nate_Tanner_Resume_20231004.pdf';
+import NateResume from '/files/Nate_Tanner_Resume_20231004.pdf';
 import Header from '../components/Resume/Header';
 import Experience from '../components/Resume/Experience';
 import Education from '../components/Resume/Education';

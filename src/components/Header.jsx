@@ -5,11 +5,10 @@ import Navigation from './Navigation';
 
 export default function Header() {
     const [currentPage, setCurrentPage] = useState(window.location.pathname.split("/")[1] || 'home');
-    console.log(window.location.pathname.split("/"));
     const handlePageChange = (page) => setCurrentPage(page);
     return (
 
-        <nav className="navbar navbar-expand-lg bg-secondary">
+        <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
             <Link key={1} className={currentPage === 'home' ? 'navbar-brand active' : 'navbar-brand'}  onClick={() => handlePageChange('home')} to="/">
                     Nate Tanner

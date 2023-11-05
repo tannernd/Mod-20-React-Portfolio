@@ -131,7 +131,7 @@ function ContactPage() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-        <button className="btn btn-secondary my-3 " type="submit">Submit form</button>
+        <button className="btn my-3 " type="submit">Submit form</button>
       </form>
       
     </div>
