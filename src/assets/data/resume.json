@@ -1,0 +1,111 @@
+{
+    "header":{
+        "name":"NATE TANNER",
+        "title":"APPLICATION DEVELOPER/SOFTWARE ENGINEER/FULL STACK DEVELOPER",
+        "email":"tannernd@msn.com",
+        "phone":"801-441-9639",
+        "location":"Lehi, UT 84043",
+        "summary":"Highly motivated individual with experience in developing and implementing software solutions. Proven expertise in developing, testing, and debugging high performing software solutions with a keen eye for detail. Skilled in object-oriented programming, web development and database technologies. Excellent problem-solving and communication skills and demonstrates a passion for learning and implementing new technologies. Earned a certificate in Full Stack Web Development from the University of Utah (2023) and a bachelor’s degree in software engineering from the University of Phoenix (2011).",
+        "skills":"Node.js, React.js, Express.js, JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, GitHub, MongoDB, Handlebars, jQuery, PHP, Bootstrap, Databases (Oracle, MySQL). Experience in other programming languages, frameworks, and npm packages."    
+    },
+   "experience":[
+        {
+            "company":"ADP",
+            "location":"Remote - Salt Lake City, UT",
+            "dates":"JANUARY 2013 — PRESENT",
+            "roles":[
+                {
+                    "title":"Application Developer (Software Engineer)",
+                    "duties":[
+                        "Develop applications used by the sales team for product demonstrations.",
+                        "Using JavaScript, HTML, JSON, CSS to create applications.",
+                        "Working with npm packages in Node.js",
+                        "Debugging code to ensure proper run across browsers.",
+                        "Working within a proprietary JavaScript based framework.",
+                        "Creating and implementing source code for new applications.",
+                        "Conducting unit and integration testing before launches.",
+                        "Writing SQL statements for querying database and extracting data.",
+                        "Implementing agile development practices across multiple projects, ensuring timely delivery of high-quality solutions within budget constraints.",
+                        "Writing well-designed, testable code."
+                    ]
+                },
+                {
+                    "title":"Human Capital Management Demo Systems Analyst",
+                    "duties":[
+                        "Project Manage key business partners, software developers and other technical resources to ensure timely updates that coincide with production version releases.",
+                        "Work with product management, program development and IT and assess the impact and planning of the demonstration environments.",
+                        "Development of demonstration processes and documentation of \"how to\" and training to the sales community.",
+                        "Ensure peak sales effectiveness by collecting and incorporating sales field feedback into the demonstration environment."
+                    ]
+                }
+            ]
+        },
+        {
+            "company":"InContact",
+            "location":"Sandy, UT",
+            "dates":"SEPTEMBER 2011 — JANUARY 2013",
+            "roles":[
+                {
+                    "title":"Application Developer (Software Engineer)",
+                    "duties":[
+                        "Develop and deploy advanced scripts including integration with web services and databases.",
+                        "Create programming solutions using Microsoft Visual Studio and inContact scripting software.",
+                        "Develop and maintain costing for projects, perform risk analysis, and manage change control.",
+                        "Create and manage project plans and project timelines.",
+                        "Manage between 6 to 9 projects of various sizes concurrently.",
+                        "Develop hour estimates for projects and monitor hours for compliance and budget.",
+                        "Conduct comprehensive cost/benefit analysis and prepare business cases for projects.",
+                        "Provide process, data, and object modeling in a variety of application and database environments (including MS Visio).",
+                        "Managed projects and implementations for multi-billion dollar and Fortune 500 companies."
+
+                    ]
+                }
+            ] 
+        },
+        {
+        "company":"ADP",
+        "location":"Salt Lake City, UT",
+        "dates":"OCTOBER 2005 — SEPTEMBER 2011",
+        "roles":[
+            {
+                "title":"Manager – Functional Experts",
+                "duties":[
+                    "Manage a team of 15 Functional Experts (Quality Assurance Analysts) with a solid reporting relationship.",
+                    "All HR duties relating to a direct reporting relationship (hiring, discipline, coaching, etc.).",
+                    "Manage global projects and initiatives including creating project plans, maintaining budget, managing timeline, process improvement, and ensuring scope.",
+                    "Ensure that functional areas within operations are standardized."
+                ]
+            },
+            {
+                "title":"Human Capital Management Demo Systems Analyst",
+                "duties":[
+                    "Project Manage key business partners, software developers and other technical resources to ensure timely updates that coincide with production version releases.",
+                    "Work with product management, program development and IT and assess the impact and planning of the demonstration environments.",
+                    "Development of demonstration processes and documentation of \"how to\" and training to the sales community.",
+                    "Ensure peak sales effectiveness by collecting and incorporating sales field feedback into the demonstration environment."
+                ]
+            }
+            ]
+        }    
+    ],
+    "education":[
+        {
+            "school":"University of Utah",
+            "location":"Salt Lake City, UT",
+            "degree":"Certificate",
+            "graduated":"December 2023"
+        },
+        {
+            "school":"University of Phoenix",
+            "location":"Salt Lake City, UT",
+            "degree":"Master of Business Administration (MBA)",
+            "graduated":"April 2013"
+        },
+        {
+            "school":"University of Phoenix",
+            "location":"Salt Lake City, UT",
+            "degree":"Bachelor of Science (B.S.) in IT - Software Engineering",
+            "graduated":"June 2011"
+        }
+    ]
+}

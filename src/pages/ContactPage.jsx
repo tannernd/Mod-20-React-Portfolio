@@ -58,8 +58,8 @@ function ContactPage() {
     <div className="container-fluid">
       <h1>Contact Nate</h1>
       <form className="form" onSubmit={handleFormSubmit}>
-        <div class="form-group">
-            <label for="contactName">Name:</label>
+        <div className="form-group">
+            <label htmlFor="contactName">Name:</label>
             <input
             className="form-control"
             style={styles.inputMaxWidth}
@@ -70,8 +70,8 @@ function ContactPage() {
             placeholder="Your Name"
             />
         </div>
-        <div class="form-group">
-            <label for="email">Email Address:</label>
+        <div className="form-group">
+            <label htmlFor="email">Email Address:</label>
             <input
             className="form-control"
             style={styles.inputMaxWidth}
@@ -82,8 +82,8 @@ function ContactPage() {
             placeholder="Email"
             />
         </div>
-        <div class="form-group">
-            <label for="message">Message:</label>
+        <div className="form-group">
+            <label htmlFor="message">Message:</label>
             <textarea
             className="form-control"            
             style={styles.inputMaxWidth}
@@ -99,7 +99,7 @@ function ContactPage() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-        <button class="btn btn-secondary my-3 " type="submit">Submit form</button>
+        <button className="btn btn-secondary my-3 " type="submit">Submit form</button>
       </form>
       
     </div>
