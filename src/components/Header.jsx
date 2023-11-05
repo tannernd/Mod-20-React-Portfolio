@@ -4,7 +4,8 @@ import Navigation from './Navigation';
 
 
 export default function Header() {
-    const [currentPage, setCurrentPage] = useState('home');
+    const [currentPage, setCurrentPage] = useState(window.location.pathname.split("/")[1] || 'home');
+    console.log(window.location.pathname.split("/"));
     const handlePageChange = (page) => setCurrentPage(page);
     return (
 
