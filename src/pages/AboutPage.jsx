@@ -26,7 +26,7 @@ function AboutPage() {
         <div className="row">
             <div className="col-md-3 d-flex justify-content-center">
                 <div style={styles.imageCropper}>
-                    <img style={styles.img} src="../../src/assets/images/IMG_0243.JPG" /> 
+                    <img style={styles.img} src="/images/IMG_0243.JPG" /> 
                 </div>  
             </div>
             <div className="col-md-9">
