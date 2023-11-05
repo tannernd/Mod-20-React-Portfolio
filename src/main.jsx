@@ -1,9 +1,11 @@
 import ReactDOM from 'react-dom/client'
-import './index.css'
+
 
 //import the React Router
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'jquery/dist/jquery.min.js'
+import 'bootstrap/dist/js/bootstrap.min.js'
 //Bring in the pages for router use
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
@@ -11,6 +13,7 @@ import HomePage from './pages/HomePage';
 import PortfolioPage from './pages/PortfolioPage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
+import ContactPage from './pages/ContactPage';
 
 //Define the routes
 const router = createBrowserRouter([
@@ -28,13 +31,17 @@ const router = createBrowserRouter([
           element: <PortfolioPage />,
         },
         {
-          path: 'about',
+          path: 'resume',
           element: <ResumePage />,
         },        
         {
-            path: 'resume',
+            path: 'about',
             element: <AboutPage />,
-          },
+        },       
+        {
+            path: 'contact',
+            element: <ContactPage />,
+        },
       ],
     },
   ]);
