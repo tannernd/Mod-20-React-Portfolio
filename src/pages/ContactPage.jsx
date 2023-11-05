@@ -62,6 +62,7 @@ function ContactPage() {
             <label htmlFor="contactName">Name:</label>
             <input
             className="form-control"
+            id="contactName"
             style={styles.inputMaxWidth}
             value={contactName}
             name="contactName"
@@ -74,6 +75,7 @@ function ContactPage() {
             <label htmlFor="email">Email Address:</label>
             <input
             className="form-control"
+            id="email"
             style={styles.inputMaxWidth}
             value={email}
             name="email"
@@ -85,7 +87,8 @@ function ContactPage() {
         <div className="form-group">
             <label htmlFor="message">Message:</label>
             <textarea
-            className="form-control"            
+            className="form-control"  
+            id="message"          
             style={styles.inputMaxWidth}
             value={message}
             name="message"

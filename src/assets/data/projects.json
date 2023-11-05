@@ -1,0 +1,40 @@
+{
+    "projects":[
+        {
+            "name":"Triggator",
+            "github":"https://triggator.com",
+            "image":"../../src/assets/images/triggator.png",
+            "deployed":"https://triggator.com"
+        },
+        {
+            "name":"PropPlanner",
+            "github":"https://github.com/tannernd/PropPlanner",
+            "image":"../../src/assets/images/prop_planner.png",
+            "deployed":"https://propplanner-production.up.railway.app/"
+        }, 
+        {
+            "name":"The Tech Blog",
+            "github":"https://github.com/tannernd/Mod-14-The-Tech-Blog",
+            "image":"../../src/assets/images/the_tech_blog.png",
+            "deployed":"https://mod-14-the-tech-blog-production.up.railway.app/"
+        },  
+        {
+            "name":"Muscle Munch",
+            "github":"https://github.com/JBailey007/muscle-munch",
+            "image":"../../src/assets/images/muscle_munch.png",
+            "deployed":"https://jbailey007.github.io/muscle-munch/"
+        }, 
+        {
+            "name":"Note Taker",
+            "github":"https://github.com/tannernd/Mod-11-Note-Taker",
+            "image":"../../src/assets/images/note_taker.png",
+            "deployed":"https://mod-11-note-taker-production.up.railway.app/"
+        },         
+        {
+            "name":"Weather App",
+            "github":"https://github.com/tannernd/Mod-6-Weather-App",
+            "image":"../../src/assets/images/weather_app.png",
+            "deployed":"https://tannernd.github.io/Mod-6-Weather-App"
+        }
+    ]
+}
